@@ -1,0 +1,23 @@
+<div class="container">
+
+    <h2>Login</h2>
+
+    <input
+        type="text"
+        placeholder="User"
+        [(ngModel)]="user">
+
+    <input
+        type="password"
+        placeholder="Password"
+        [(ngModel)]="password">
+
+    <button (click)="login()">
+        ลงชื่อเข้าใช้งาน
+    </button>
+
+    <a routerLink="/register">
+        สมัครสมาชิก
+    </a>
+
+</div>

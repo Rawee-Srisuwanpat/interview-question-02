@@ -1,0 +1,35 @@
+<div class="container">
+
+    <h2>สมัครสมาชิก</h2>
+
+    <input
+        type="text"
+        placeholder="User"
+        [(ngModel)]="user">
+
+    <input
+        type="password"
+        placeholder="Password"
+        [(ngModel)]="password">
+
+    <input
+        type="password"
+        placeholder="Confirm Password"
+        [(ngModel)]="confirmPassword">
+
+    <button (click)="register()">
+
+        สมัครสมาชิก
+
+    </button>
+
+
+    <button (click)="backTologin()">
+
+        กลับหน้าหลัก
+
+    </button>
+
+
+
+</div>

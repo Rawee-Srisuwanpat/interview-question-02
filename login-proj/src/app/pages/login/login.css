@@ -1,0 +1,48 @@
+.container{
+
+    width:350px;
+
+    margin:100px auto;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:15px;
+
+}
+
+input{
+
+    padding:10px;
+
+}
+
+button{
+
+    padding:10px;
+
+    cursor:pointer;
+
+}
+
+a{
+
+    text-align:center;
+
+}
+
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background: #1976d2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background: #1565c0;
+  }
